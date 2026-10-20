@@ -1,0 +1,7 @@
+variant,config,episodes,CO2_kg,duration_h,min_observed_fraction,meaning
+GATE_MINUS_50M,C0,3,161187.53476552624,128.47708333333333,1.0,Translated gates change the geographical/time estimand; no event contrast computed.
+GATE_PLUS_50M,C0,3,161053.22322265877,128.33694444444444,1.0,Translated gates change the geographical/time estimand; no event contrast computed.
+GATE_MINUS_50M,C1,3,158769.5131109977,128.47708333333333,1.0,Translated gates change the geographical/time estimand; no event contrast computed.
+GATE_PLUS_50M,C1,3,158635.20156813023,128.33694444444444,1.0,Translated gates change the geographical/time estimand; no event contrast computed.
+GATE_MINUS_50M,C2,3,172492.01067216715,128.47708333333333,1.0,Translated gates change the geographical/time estimand; no event contrast computed.
+GATE_PLUS_50M,C2,3,172357.69912929967,128.33694444444444,1.0,Translated gates change the geographical/time estimand; no event contrast computed.

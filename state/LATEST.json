@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-20",
+  "release_id": "SE-EXCHANGE-20261020-R01",
+  "path": "runs/SE-EXCHANGE-20261020-R01",
+  "entry": "runs/SE-EXCHANGE-20261020-R01/REVIEW_BRIEF_ZH.md",
+  "external_review_request": "tasks/EXTERNAL-SCIENTIFIC-REVIEW-20261020-R01.md",
+  "latest_completed_empirical_task": "R27",
+  "normal_operational_episodes": 3,
+  "event_contrast_status": "NOT_ESTIMATED",
+  "external_fuel_validation": "UNVALIDATED",
+  "R28_status": "PROPOSED_PENDING_FINAL_EXECUTION_SCOPE",
+  "new_compute_dispatched_by_publication": false,
+  "scope": "author-approved public scientific summaries and pooled evidence"
+}

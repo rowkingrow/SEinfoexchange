@@ -1,0 +1,16 @@
+{
+  "release_id":"SE-EXCHANGE-20261020-R01",
+  "date":"2026-10-20",
+  "source_result_sha":"35cec1c9e4fa14e55985b98d949ea250fdb580df",
+  "CONTENT":{"basis":"Complete supplied Proposal text plus current fixed state,R10,R26report,R13andR28plan; earlier bounded findings retained with their source attribution","private_originals":"restricted; summaries are author-approved public projections","new_R28_empirical_execution":false},
+  "NUMERICAL":{"method":"Independent Decimal arithmetic at precision40 on four complete reconstructed CSVs; no executor module imported","total_hours":128.42805555555555,"normal_episodes":3,"totals_kg":[161147.32406514807,158729.3024106195,172451.79997178898],"berth_hours":124.7286111111111,"berth_time_percent":97.11944214335306,"ambiguous_time_percent":1.8408490702749703,"C0_engine_percent":{"ME":0.04485106863953281,"AE":59.757706329306596,"AB":40.19744260205362},"C0_berth_CO2_percent":96.99644167756966,"C1_relative_C0_percent":-1.5005037586296008,"C2_relative_C0_percent":7.014994491668243,"max_CO2_closure_residual_kg":1.153e-9,"time_closure_h":-5.5e-15,"real_AIS_and_individual_ledger_replay":"NOT_PERFORMED","new_event_contrast":"NOT_ESTIMATED"},
+  "BYTE":{"objects":[
+    {"path":"evidence/aggregate_inventory.csv","bytes":590,"sha256":"acf6f225d3193e32c4e437926ec4c53f8b4280925b702e1ee8af0701148be8ff","git_blob":"460285f9f6b5c5c4d36abf71114f5f1a3d2f848b"},
+    {"path":"evidence/aggregate_state_duration.csv","bytes":180,"sha256":"3825c109441a7c02b3c53d57ff31fd4f8024fb6eefaae89a198a09e65d6a9d48","git_blob":"ad8c713fc773143a1d51edb23d45f3adb802482f"},
+    {"path":"evidence/aggregate_state_engine.csv","bytes":1422,"sha256":"e2822a3118945a923553d095bf8cfc0d2cd59de893e78549ff459506b2504eeb","git_blob":"c1e646493f34b33b1feac24d5eaea257e797c47c"},
+    {"path":"evidence/aggregate_boundary_variants.csv","bytes":944,"sha256":"bba6eb03c367402a05fae1c5c2ffeec3432b73af7f1ae3cf3a2280734602a43a","git_blob":"b91e14afb9fddddffb7261b2241345ab5b500967"}
+  ],"total_source_csv_bytes":3136,"match_recorded_R27_sha256_and_git_blob":true,"full_private_run_rehash":"NOT_PERFORMED","public_package_manifest":"Git-tree identities and CSV SHA256; final readback receipt published separately"},
+  "VISUAL":{"new_images_generated":false,"new_private_trajectory_visual_check":"NOT_PERFORMED","historical_review":"R13 viewed one verified supportSVG; private trajectory and source-table inspections retained executor attribution"},
+  "external_validation":"UNVALIDATED",
+  "verification_note":"Content and math consistency do not establish physical accuracy or a cyclone causal effect. Public network access and remote file readback are verified after publication."
+}

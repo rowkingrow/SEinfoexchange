@@ -1,0 +1,40 @@
+{
+  "release_id": "SE-EXCHANGE-20261020-R01",
+  "date": "2026-10-20",
+  "authorization": "Author requested public summaries of the Claude-proposal-to-current workflow and results in rowkingrow/SEinfoexchange for external scientific review.",
+  "private_working_state_at_export": "2b9bc236056cddc382ee8fee3f51dc50c9858393",
+  "provenance_note": "Archive identifiers are immutable source fingerprints. Public summaries are self-contained; these identifiers do not grant access to restricted originals.",
+  "sources": [
+    {"id":"P0","kind":"AUTHOR_SUPPLIED_PROPOSAL","title":"热带气旋期间航运碳排放的净效应：五通道分解研究 Proposal（v1）","date":"2026-10-20","original_bytes":10119,"original_sha256":"e03be4eb3a6d8b810ccf739a9000444ca683950c76f42c541747ed62c0d60193","hash_basis":"Recorded by R10; current complete supplied text read","scope":"Sections0-5.5; referenced section7.3 absent; original is summarized rather than reproduced in this release"},
+    {"id":"B0","kind":"HISTORICAL_SCIENCE","archive_commit":"df1b79126b4bb9a2b268da2cadf5940aec9d54c1","manuscript_result":"74a8b207a438685591169444459c37f52b08f68e","scope":"Historical fixed-activity modeled ME increment; MainR22/SIR22 retained, raw scientific replay not performed for public export"},
+    {"id":"R24","kind":"EXECUTOR_RESULT","archive_commit":"f2720bb1d2c31296e01aafeda1af5e7ed9e81fc0","manifest_sha256_reported":"0ad41a33a2350f90b80f827823e7b7ffbdd0756da54338a4871b3142770fd6aa","scope":"Bounded cross-sea service coverage screen; empirical CO2 not estimated"},
+    {"id":"R25","kind":"EXECUTOR_RESULT","archive_commit":"7f4f73d8699cfc225dd8ea84822cddc60d0c0c84","manifest_sha256_reported":"b270ea065df6fa6a89012fdd97e069d9615a89fca687439284709c56ef248bae","scope":"Coastal and port-process coverage candidates; complete service and geometry qualifications held"},
+    {"id":"R09","kind":"INDEPENDENT_REVIEW","archive_commit":"0d73c0271cd297b3632d4b245a323d1dd4f98727","scope":"R25 source-window, LAG-service, duration and geometry review"},
+    {"id":"R10","kind":"INDEPENDENT_DESIGN_REVIEW","archive_commit":"341b2d7943e91999b97a87f5c6c95a83c9ac59d3","document":"reviews/V770-R26-NET-CO2-PROPOSAL-REVIEW-20261020-R10.md","scope":"Proposal interpretation, literature claim limits and revised pilot; source text re-read for this export"},
+    {"id":"R26","kind":"EXECUTOR_RESULT","archive_commit":"b328eb6af3523795c0f54973e69109fe759aeb99","manifest_sha256_reported":"91ce310658dac3394de9fd9e98c6edffe6d7492e563e76abdffc541d75b6e05e","scope":"8 source examples,10 rawdays,4 administrative windows,67 synthetic tests; report re-read; empirical CO2 not estimated"},
+    {"id":"R11","kind":"INDEPENDENT_REVIEW","archive_commit":"9012080e60a5973bb4783fbd6a10202332912e49","scope":"Independent32saved-world/120-order arithmetic;13500bytes of2CSV+1SVG; one SVG viewed; private sources and complete suite not replayed"},
+    {"id":"R27_TASK","kind":"EXECUTION_CONTRACT","archive_commit":"753619d2f49316850570170bae6a736786b0efa9","scope":"One terminal/class,up to8normal candidates,target4normals+1event; source-supported conditional inventory permitted"},
+    {"id":"R27","kind":"EXECUTOR_RESULT","archive_commit":"35cec1c9e4fa14e55985b98d949ea250fdb580df","manifest_sha256_reported":"17a5b6fab51e46338394b9c19c3bcdc3813e7cfdd832d74159964369ca0621e1","scope":"Three actual normal operational-episode conditional inventories; event contrast unestimated;70result/3state readback is executor evidence"},
+    {"id":"R13","kind":"INDEPENDENT_REVIEW","archive_commit":"2b9bc236056cddc382ee8fee3f51dc50c9858393","document":"reviews/V770-R27-CHAT-INDEPENDENT-REVIEW-20261020-R13.md","scope":"4CSVDecimal reaggregation;5objects12018bytes; supportSVG viewed; review re-read for this export"},
+    {"id":"PLAN28","kind":"PROPOSED_PLAN","archive_commit":"2b9bc236056cddc382ee8fee3f51dc50c9858393","document":"tasks/V770-R28-JOINT-EVENT-REFERENCE-DESIGN-PLAN-20261020-R01.md","scope":"Joint terminal/subtype/external-phase/reference screen and comparison-interface fixes; execution not dispatched"},
+    {"id":"E1","kind":"PUBLIC_AGGREGATE","path":"evidence/aggregate_inventory.csv","source":"R27","bytes":590,"sha256":"acf6f225d3193e32c4e437926ec4c53f8b4280925b702e1ee8af0701148be8ff"},
+    {"id":"E2","kind":"PUBLIC_AGGREGATE","path":"evidence/aggregate_state_duration.csv","source":"R27","bytes":180,"sha256":"3825c109441a7c02b3c53d57ff31fd4f8024fb6eefaae89a198a09e65d6a9d48"},
+    {"id":"E3","kind":"PUBLIC_AGGREGATE","path":"evidence/aggregate_state_engine.csv","source":"R27","bytes":1422,"sha256":"e2822a3118945a923553d095bf8cfc0d2cd59de893e78549ff459506b2504eeb"},
+    {"id":"E4","kind":"PUBLIC_AGGREGATE","path":"evidence/aggregate_boundary_variants.csv","source":"R27","bytes":944,"sha256":"bba6eb03c367402a05fae1c5c2ffeec3432b73af7f1ae3cf3a2280734602a43a"}
+  ],
+  "public_primary_reference_entries": [
+    {"id":"L1","title":"Improving the global prediction of shipping emissions by modelling the effects of ambient conditions","doi":"10.1016/j.scitotenv.2025.180126","url":"https://doi.org/10.1016/j.scitotenv.2025.180126","historical_scope":"Uploaded full text;13m/s apparent-wind and method scope checked in prior reviews"},
+    {"id":"L2","title":"No Calm Before the Storm: Typhoons, Shipping, and Trade","version":"CESifo Working Paper12746,2026","url":"https://www.ifo.de/DocDL/cesifo1_wp12746.pdf","historical_scope":"Voyage/fuel methods and reported speed/fuel results read; status retained as working paper"},
+    {"id":"L3","title":"AIS-Based Recognition of Typhoon-Related Ship Responses: A Dual-Behavior Framework","doi":"10.3390/jmse14050487","url":"https://doi.org/10.3390/jmse14050487","historical_scope":"Publisher methods/limitations excerpts; full source-code replay unperformed"},
+    {"id":"L4","title":"Investigation of a port queuing system on CO2 emissions from container shipping","doi":"10.1016/j.marpolbul.2025.118151","url":"https://doi.org/10.1016/j.marpolbul.2025.118151","historical_scope":"Uploaded methods/results and state-accounting page read"},
+    {"id":"L5","title":"U.S. port disruptions under tropical cyclones: Resilience analysis by harnessing multiple-source dataset","doi":"10.1016/j.trd.2026.105420","url":"https://doi.org/10.1016/j.trd.2026.105420","data":"https://github.com/ChenchenMobility/Maritime-Data-CyPort","data_commit":"5cb1d8778d3968c5e50d0b8cb8213f2414d692d3","historical_scope":"Uploaded data/methods and selected public tables read; generator unresolved"},
+    {"id":"L6","title":"Operational Levers for Port Resilience to Tropical Cyclones","doi":"10.3390/jmse14161502","url":"https://doi.org/10.3390/jmse14161502","historical_scope":"Uploaded phase/baseline/queue and data-boundary sections read"},
+    {"id":"L7","title":"EPA Port Emissions Inventory Guidance","version":"April2022,EPA420-B-22-011","url":"https://www.epa.gov/state-and-local-transportation/port-emissions-inventory-guidance","text":"https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P1014J1S.TXT","historical_scope":"Mode loads,BSFC,carbon and low-load factors; source-locator correction recorded inR13"},
+    {"id":"L8","title":"BTS Port Performance Freight Statistics Program Technical Documentation","url":"https://www.bts.gov/PPFS-Tech-Docs","historical_scope":"Terminal polygons,calls/dwell and boundary-jitter methodology"},
+    {"id":"L9","title":"Causal Shapley Values","url":"https://papers.nips.cc/paper_files/paper/2020/hash/32e54441e6382a7fbacbbbaf3c450059-Abstract.html","historical_scope":"Primary abstract and causal-identification framing; full implementation not replayed"}
+  ],
+  "literature_status_note": "The current release summarizes the recorded reading scope. It does not certify an exhaustive novelty search or new full-text verification of every reference.",
+  "public_scope": {"published":"narrative review,design decisions,pooled normal inventories and provenance","restricted":"raw AIS,identities,precise tracks,individual commercial parameters,fuel logs,full manuscripts,third-party PDFs,credentials and execution environment","new_license_grant":false},
+  "new_empirical_job": false,
+  "new_event_effect": "NOT_ESTIMATED"
+}

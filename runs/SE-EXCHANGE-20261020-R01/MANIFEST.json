@@ -1,0 +1,30 @@
+{
+  "release_id":"SE-EXCHANGE-20261020-R01",
+  "date":"2026-10-20",
+  "repository":"rowkingrow/SEinfoexchange",
+  "branch":"main",
+  "content_tree_before_manifest":"d5cd4c413a7d25ecf7bb4ee8c9e69a2f85fc2ee1",
+  "manifest_scope":"16 content objects; manifest excludes itself. Git blob IDs and byte sizes obtained from the full recursive tree. CSV SHA256 independently checked against the source release.",
+  "content_files":16,
+  "content_bytes":50027,
+  "members":[
+    {"path":"README.md","bytes":2050,"git_blob":"e5be650b7420ef49fd2dc29dde845dc97b10de01"},
+    {"path":"reviews/RESPONSE_TEMPLATE.md","bytes":1252,"git_blob":"6f651ebdeeb987eeaf106c9459f2d96c4458eff0"},
+    {"path":"runs/SE-EXCHANGE-20261020-R01/EVIDENCE_AND_LIMITATIONS.md","bytes":4824,"git_blob":"654aee655589ee091c9160305457581a6068f7ec"},
+    {"path":"runs/SE-EXCHANGE-20261020-R01/HANDOFF.md","bytes":1212,"git_blob":"6c0e06866bb0e5b935b4febda1405bd78a42ddff"},
+    {"path":"runs/SE-EXCHANGE-20261020-R01/R28_NEXT_STEP_PLAN.md","bytes":4698,"git_blob":"92e729aa223f7bb9c2416e9e874d7d246fe65b01"},
+    {"path":"runs/SE-EXCHANGE-20261020-R01/REVIEW_BRIEF_ZH.md","bytes":16198,"git_blob":"a7aac348981e746e2a458134138d46048a151610"},
+    {"path":"runs/SE-EXCHANGE-20261020-R01/checks.json","bytes":2689,"git_blob":"2cc35888fe40388e9bd3e78666774a9fb49d67fe"},
+    {"path":"runs/SE-EXCHANGE-20261020-R01/evidence/README.md","bytes":1117,"git_blob":"e958e125adb6c0cb86ddceaa8dee3340e31f6d45"},
+    {"path":"runs/SE-EXCHANGE-20261020-R01/evidence/aggregate_boundary_variants.csv","bytes":944,"git_blob":"b91e14afb9fddddffb7261b2241345ab5b500967","sha256":"bba6eb03c367402a05fae1c5c2ffeec3432b73af7f1ae3cf3a2280734602a43a"},
+    {"path":"runs/SE-EXCHANGE-20261020-R01/evidence/aggregate_inventory.csv","bytes":590,"git_blob":"460285f9f6b5c5c4d36abf71114f5f1a3d2f848b","sha256":"acf6f225d3193e32c4e437926ec4c53f8b4280925b702e1ee8af0701148be8ff"},
+    {"path":"runs/SE-EXCHANGE-20261020-R01/evidence/aggregate_state_duration.csv","bytes":180,"git_blob":"ad8c713fc773143a1d51edb23d45f3adb802482f","sha256":"3825c109441a7c02b3c53d57ff31fd4f8024fb6eefaae89a198a09e65d6a9d48"},
+    {"path":"runs/SE-EXCHANGE-20261020-R01/evidence/aggregate_state_engine.csv","bytes":1422,"git_blob":"c1e646493f34b33b1feac24d5eaea257e797c47c","sha256":"e2822a3118945a923553d095bf8cfc0d2cd59de893e78549ff459506b2504eeb"},
+    {"path":"runs/SE-EXCHANGE-20261020-R01/provenance.json","bytes":8168,"git_blob":"b991db2058005425176150c62038b97f8fcc238b"},
+    {"path":"state/CURRENT.md","bytes":1070,"git_blob":"483debb7658de0739ce3dde2cf106cab95d7d923"},
+    {"path":"state/LATEST.json","bytes":613,"git_blob":"811ebfd64566bea43f275f8a89868c6d7cd7969a"},
+    {"path":"tasks/EXTERNAL-SCIENTIFIC-REVIEW-20261020-R01.md","bytes":3000,"git_blob":"0bd9a537da92241b99b90518566a32ee3fc3d81e"}
+  ],
+  "review_scope":{"source_reading":"public projection of recorded proposal,execution and independent reviews","new_aggregate_recomputation":"four CSV,Decimal precision40","private_data_replay":"NOT_PERFORMED","new_image_review":"NOT_PERFORMED","new_empirical_CO2":"NOT_ESTIMATED","remote_content_readback":"recorded after commit in an external receipt"},
+  "disclosure":"No raw AIS,individual identifiers,precise tracks,commercial parameter rows,private host paths,credentials,complete manuscripts or third-party PDFs are included."
+}
