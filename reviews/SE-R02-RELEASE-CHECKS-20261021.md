@@ -1,0 +1,21 @@
+# R02发布回读与文字补充
+
+日期2026-10-21。资料包固定提交 `d3a61ef6ef8cfed3487386c579a735c8a5a8ae36`。本记录位于版本资料包之外，原R01和R02已发布文件保持原字节。
+
+## 实际回读
+
+10份核心文件均已在固定提交下完整读取并核对内容与Git对象身份：README、state/CURRENT、PROGRESS_EXPLAINED_ZH、METHODS_AND_LIMITS、NEXT_STEP_DISCUSSION、INDEPENDENT_CHECKS、source_registry及evidence下的3份CSV。父提交 `f71169f678224edf373f8d0c85e45b81be122401` 到该资料包提交的比较显示8个新增文件、2个导航更新，旧版本目录没有改动。
+
+两份原结果CSV在公开库与源库具有相同Git blob：activity_state_ledger.csv为e4a8588cf5d35d102f4f0f78cf2561b22191fa71；paired_state_engine_differences.csv为5be39bc376afd62bf1a906bdf5d98f79d92ea334。其SHA256与字节核验范围见资料包source_registry及INDEPENDENT_CHECKS。第三份contrasts.csv是源JSON的单位换算整理表，完整过程空值保留。
+
+私有独立评阅固定指纹为 `b965f28db29a2b671d0c8c934aa61a230aa20e93`，七份评阅/规划/状态文档也已完整回读。它记录了46项独立保存汇总复算、3个原对象共13309字节核验和原SVG1800px视觉检查的实际范围。
+
+## 方法页概数补充
+
+METHODS_AND_LIMITS第4节关于N01/N03的整数概数范围应读为**约46—59吨CO₂**。两个参照在共同E01参数下的已观测模型子总量分别为58.807243782吨和46.180637081吨。原页第6节的精确数值、进度页表格、差值、界限和公开CSV均保持正确，计算结果未改变。
+
+## 公开与执行范围
+
+本次公开内容为去身份的聚合过程数值、方法和科研判断；原始AIS、身份、精细时间/坐标、个体商业参数、公司燃料和完整稿件仍受控。现有GitHub连接已成功读取公开仓库；其他平台的实际读取能力由其自行测试，本轮没有联系Claude。
+
+R30局部两参照结果已算出，完整运输任务、局地风浪增量、四参照扩展及气旋因果效应各按资料包声明保留其未估/未识别状态。下一轮移动航段建议仍为待作者确认规划，没有新执行任务或后台调度。
