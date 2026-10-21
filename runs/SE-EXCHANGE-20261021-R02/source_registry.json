@@ -1,0 +1,27 @@
+{
+  "package": "SE-EXCHANGE-20261021-R02",
+  "date": "2026-10-21",
+  "basis": "Source-grounded summary of completed R30 and historical published workflow; no new empirical shipping calculation",
+  "private_result_fingerprint": "01367f0d0229d700e52c4e642fdb0f94e1da26c7",
+  "source_manifest_declared_sha256": "adc62ee72c52a6a1b0a273f38be268c6ee18dd31ef7ed2d103a3232f131f5ea0",
+  "source_documents": [
+    {"id":"R30-REPORT","path":"REPORT.md","role":"executed scope, audit results, historical search and decision","sha256":"044a7e8a6cfe278249ecc38a19bd5cb7bd758d718e14837731415c1beaaa9e87","hash_status":"declared source manifest; not rehashed in full by Chat"},
+    {"id":"R30-A","path":"A_results.json","role":"pairs, equal reference, components and scope","sha256":"94709b146a61c25f79a6c1d0e0611c6d750e18cc3da9ec2089f2ebae6fbcd89e","hash_status":"declared source manifest; values read and independently recalculated"},
+    {"id":"R30-BOUNDS","path":"time_energy_bounds.json","role":"per-process emissions, duration and energy limits","sha256":"da00994316f45db1eab368b0c325cc096f3dc611341f154085efe12c12c25396","hash_status":"declared source manifest; aggregate values read"},
+    {"id":"R30-PARAMETERS","path":"PARAMETER_MAP.json","role":"EPA defaults and target standardization"},
+    {"id":"R30-CODE","path":"code/v770_r30_core.py; code/v770_r28_core.py","role":"two-reference dispatch, bounds, state/engine integration; source read"},
+    {"id":"R30-DECISION","path":"SCIENTIFIC_DECISION.json","role":"executor stop-case recommendation; reviewed independently"}
+  ],
+  "byte_verified_source_assets": [
+    {"path":"activity_state_ledger.csv","public_copy":"evidence/activity_state_ledger.csv","bytes":1202,"sha256":"f9667fb53543ccac9856ac4f6715db15299c4974f462052068de1eaed77002f7","git_blob":"e4a8588cf5d35d102f4f0f78cf2561b22191fa71"},
+    {"path":"paired_state_engine_differences.csv","public_copy":"evidence/paired_state_engine_differences.csv","bytes":1995,"sha256":"b78b647ceea1b2ae71776ac8524a92327be0757681dcf2b2fa4bc597b5c2d61c","git_blob":"5be39bc376afd62bf1a906bdf5d98f79d92ea334"},
+    {"path":"figures/paired_contrasts.svg","public_copy":null,"bytes":10112,"sha256":"0c0c389d714ec3801beeab5b58fd59cf43ceae5845b3c691ff565b2e17e490aa","git_blob":"702c531929df786c33944948324021b2a7d8cdcc","rendered_width_px":1800,"actually_viewed":true}
+  ],
+  "contrasts_csv": "derived table from source A_results; kg converted to tonnes, original null points retained",
+  "method_source": {"document":"EPA420-B-22-011, April2022","locators":["Table3.4","Table3.6","Equation3.4","Table3.10","AppendixE"],"scope":"locators and parameter use read from frozen executed report and code; original PDF not independently reread this turn"},
+  "history_sources": {"previous_public_package":"../SE-EXCHANGE-20261020-R01/","R28":"671214f60d003dcc337ad64fb04666309a87b797","R29":"18d4fa475baa42619c7fb67921d93172357f7c14","R29_independent_review":"e13d4a8c9edf052bb56d6decde71a9528a1170e0"},
+  "publication_scope": "Author explicitly requested current progress/method update. Deidentified summaries and aggregate process rows only; no MMSI/IMO, exact call timestamps, coordinates, terminal location, private individual parameters, raw trajectories, credentials, full manuscripts or third-party full texts.",
+  "claims": {"conditional_local_difference":"ESTIMATED","full_process_point":"null","four_reference_extension":"NOT_ESTIMATED","local_weather_increment":"NOT_ESTIMATED","actual_fuel_accuracy":"UNVALIDATED","hurricane_causal_net_effect":"NOT_IDENTIFIED","PNAS_increment":"UNESTABLISHED"},
+  "new_external_contact": false,
+  "new_compute_task": false
+}
